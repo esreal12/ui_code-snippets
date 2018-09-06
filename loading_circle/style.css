@@ -1,10 +1,11 @@
 .animation {
     height: 50px;
     width: 50px;
+    position: absolute;
     border-radius: 100%;
-    border: 10px solid #5abb63;
-    border-top-color: #fff;
-    border-bottom-color: #fff;
+    border: 10px solid #0bdb0b;
+    border-top-color: rgb(255, 255, 255);
+    border-bottom-color: rgb(255, 255, 255);
     animation: rotation 2s linear infinite;
     -webkit-border-radius: 100%;
     -moz-border-radius: 100%;
@@ -21,11 +22,82 @@
         -ms-transform: rotate(0deg);
         -o-transform: rotate(0deg);
     }
+
     100% {
-        transform: rotate(360deb);
-        -webkit-transform: rotate(360deb);
-        -moz-transform: rotate(360deb);
-        -ms-transform: rotate(360deb);
-        -o-transform: rotate(360deb);
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
     }
+}
+
+.inception-animation {
+    height: 30px;
+    width: 30px;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    border: 10px solid #775abb;
+    border-radius: 100%;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: rotation2 2s linear infinite;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-animation: rotation2 1s linear infinite;
+}
+
+@keyframes rotation2 {
+    0% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
+    100% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+}
+
+.inception-animation-2 {
+    height: 10px;
+    width: 10px;
+    margin: 0 auto;
+    position: relative;
+    top: 0px;
+    border: 10px solid #b35abb;
+    border-radius: 100%;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: rotation3 2s linear infinite;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-animation: rotation3 1s linear infinite;
+}
+
+@keyframes rotation3 {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+}
+    100% {
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+}
 }
