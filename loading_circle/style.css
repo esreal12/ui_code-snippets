@@ -1,0 +1,31 @@
+.animation {
+    height: 50px;
+    width: 50px;
+    border-radius: 100%;
+    border: 10px solid #5abb63;
+    border-top-color: #fff;
+    border-bottom-color: #fff;
+    animation: rotation 2s linear infinite;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    -ms-border-radius: 100%;
+    -o-border-radius: 100%;
+    -webkit-animation: rotation 2s linear infinite;
+}
+
+@keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deb);
+        -webkit-transform: rotate(360deb);
+        -moz-transform: rotate(360deb);
+        -ms-transform: rotate(360deb);
+        -o-transform: rotate(360deb);
+    }
+}
